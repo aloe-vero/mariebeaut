@@ -75,7 +75,7 @@ header {
 img {
   margin-top: 10px;
   margin-bottom: 10px;
-  border: black 2px solid;
+  border: #808080 1.6px solid;
 }
 
 button {
@@ -164,4 +164,24 @@ a {
 hr {
   border: 1.8px solid #63b8b9;
   margin: 0;
+}
+
+#logo {
+  position: relative; /* Nécessaire pour le positionnement du pseudo-élément */
+  display: inline-block; /* Pour que le conteneur ait la taille de l'image */
+}
+
+#logo img {
+  display: block; /* Évite les espaces blancs autour de l'image */
+}
+
+#logo:hover::after {
+  content: ""; /* Crée le pseudo-élément */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Calque couvrant toute la largeur */
+  height: 100%; /* Calque couvrant toute la hauteur */
+  background-color: rgba(255, 255, 255, 0.3); /* Rouge transparent */
+  pointer-events: none; /* Permet de cliquer sur le lien en dessous */
 }
