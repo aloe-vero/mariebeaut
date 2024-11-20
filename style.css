@@ -150,9 +150,18 @@ a {
   background-color: var(--inner-background);
   height: 50px;
   text-align: center;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  color: #303030;
+  padding-top: 13px;
 }
 
 .booking {
   background-color: #c9fefa;
   padding: 20px;
+}
+
+hr {
+  border: 1.8px solid #63b8b9;
+  margin: 0;
 }
