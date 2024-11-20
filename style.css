@@ -1,0 +1,166 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+ :root {
+     --background: #63b8b9;
+     --inner-background: #F8F8F8;
+     --banner: #1c1c1c;
+     --footer: #1d252f;
+     --buttons: #63b9ba;
+     --font-color1: black;
+     --font-color2: white;
+     --icon-facebook: #3B5A9B;
+     --icon-instagram-color: #315587;
+     --icon-mail-color: #73C5C7;
+     --icon-phone-color: #E00067;
+
+ }
+
+ body {
+     height: 100vh;
+     background-color: var(--background);
+     display: flex;
+     justify-content: center;
+     font-family: "Roboto", sans-serif;
+ }
+
+ header {
+     background-color: var(--banner);
+     color: var(--font-color2);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     height: 46px;
+     padding-left: 40px;
+     padding-right: 40px;
+     font-weight: 300;
+     font-style: normal;
+     font-size: 15px;
+ }
+
+ #icons>a {
+     padding: 10px;
+     font-size: 20px;
+ }
+
+ .fa-facebook-f {
+     color: var(--icon-facebook);
+ }
+
+ .fa-instagram {
+     color: var(--icon-instagram-color);
+ }
+
+ .fa-envelope {
+     color: var(--icon-mail-color);
+ }
+
+ .fa-phone {
+     color: var(--icon-phone-color);
+ }
+
+ #main-body {
+     margin-top: 10px;
+     width: 80%;
+     height: 100%;
+     background-color: var(--inner-background);
+
+ }
+
+ #logo-container {
+     color: var(--inner-background);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+ }
+
+ img {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     border: black 2px solid;
+
+ }
+
+ button {
+     background-color: var(--buttons);
+     width: 30%;
+     border-style: double;
+     border-color: #1c1c1c;
+     margin-top: 10px;
+     color: var(--font-color2);
+     height: 44.4px;
+     font-size: 18px;
+     border-radius: 5px;
+     outline-offset: 200px;
+
+ }
+
+ #map {
+     height: 300px;
+     width: 350px;
+ }
+
+
+ #address-content,
+ #hour-content {
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     width: 20%;
+     border: 1px white solid
+ }
+
+ #address-content>div,
+ #hour-content>div {
+
+     font-size: 12px;
+     font-weight: 100;
+ }
+
+ #address-content>h2,
+ #hour-content>h2 {
+
+     font-size: 18px;
+     font-weight: 400;
+ }
+
+ #social-icons>i {
+     font-size: 25px;
+     color: white;
+ }
+
+
+ h2 {
+     border-bottom: 1px solid var(--background);
+     padding: 0px 0px 5px 0px;
+     width: fit-content;
+
+ }
+
+
+
+ a {
+     text-decoration: none;
+     color: var(--font-color2);
+ }
+
+ #adress-map-hours {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 10px 50px 10px 50px;
+     color: var(--font-color2);
+     background-color: var(--footer);
+     margin: 0;
+ }
+
+ #copyright {
+
+     background-color: var(--inner-background);
+     height: 50px;
+     text-align: center;
+ }
