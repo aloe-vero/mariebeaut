@@ -3,37 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <script
       src="https://kit.fontawesome.com/da169b9bae.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.media='all';"
+      id="ao_optimized_gfonts"
+      href="https://fonts.googleapis.com/css?family=Pinyon+Script%7CRoboto+Slab%3A700%2C400%7CRoboto%3A400%2C300%2C100%7CRoboto+Condensed&amp;display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&family=Oswald:wght@200..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Marie Beauté Coiffure Esthetique</title>
+    <link
+      rel="icon"
+      href="https://www.mariebeaute.ca/wp-content/uploads/2024/07/Marie-Beaute-Coiffure-Esthetique-Logo-150x150.webp"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <div id="main-body">
       <header>
-        <a href="https://maps.app.goo.gl/zir1x3GTo8HB1Jzh9"
+        <a id="location" href="https://maps.app.goo.gl/zir1x3GTo8HB1Jzh9"
           >1021 Ave du Montreal E, Mtl QC H2J 1X7</a
         >
+        <a id="locationPhone" href="https://maps.app.goo.gl/zir1x3GTo8HB1Jzh9"
+          ><i class="fa-solid fa-location-dot"></i
+        ></a>
         <div id="icons">
           <a href="https://www.facebook.com/mariebeautemontreal/"
-            ><i class="fa-brands fa-facebook-f"></i
-          ></a>
-          <a href="https://www.instagram.com/marie_beaute_montreal/"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="5143793933"><i class="fa-solid fa-phone"></i></a>
-          <a href="contact@mariebeaute.ca"
+            ><i class="fa-brands fa-facebook-f"></i></a
+          ><a href="https://www.instagram.com/marie_beaute_montreal/"
+            ><i class="fa-brands fa-instagram"></i></a
+          ><a href="5143793933"><i class="fa-solid fa-phone"></i></a
+          ><a href="contact@mariebeaute.ca"
             ><i class="fa-solid fa-envelope"></i
           ></a>
         </div>
       </header>
       <div id="logo-container">
         <div id="logo">
-          <a href="indexFR.html">
-            <img src="/Marie-Beaute-Coiffure-Esthetique-Logo.webp" alt=""
+          <a href="index.html"
+            ><img src="/Marie-Beaute-Coiffure-Esthetique-Logo.webp" alt=""
           /></a>
         </div>
         <div id="title">Réservation</div>
@@ -45,7 +63,6 @@
         </button>
       </div>
       <div class="booking">
-        <!-- Embedded booking begin -->
         <div
           class="embedded-booking"
           data-url="https://mariebeaute2.trafft.com"
@@ -55,27 +72,26 @@
           data-showsidebar="1"
           style="min-width: 320px; height: 768px"
         ></div>
-
         <script
           type="text/javascript"
           src="https://mariebeaute2.trafft.com/embed.js"
           async
         ></script>
-        <!-- Embedded booking end -->
-        <a href="">Connexion employé</a>
       </div>
       <footer>
         <div id="adress-map-hours">
           <div id="address-content">
             <h2>Adresse</h2>
-            <div>1021 Ave. Mont-Royal Est</div>
-            <div>Montréal QC H2J 1X7</div>
-            <div>(514) 379-3933</div>
-            <div>contact@mariebeaute.ca</div>
-            <div>www.mariebeaute.ca</div>
+            <div class="grey-letter font-roboto-flex">
+              1021 Ave. Mont-Royal Est
+            </div>
+            <div class="grey-letter font-roboto-flex">Montréal QC H2J 1X7</div>
+            <div class="font-roboto-flex">(514) 379-3933</div>
+            <div class="font-roboto-flex">contact@mariebeaute.ca</div>
+            <div class="font-roboto-flex">www.mariebeaute.ca</div>
             <div id="social-icons">
-              <i class="fa-brands fa-square-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-square-facebook"></i
+              ><i class="fa-brands fa-instagram"></i>
             </div>
           </div>
           <div id="map-content">
@@ -92,17 +108,17 @@
           </div>
           <div id="hour-content">
             <h2>Nos Heures</h2>
-            <div>Lundi : Fermé</div>
-            <div>Mardi : 9h à 19h</div>
-            <div>Mercredi : 9h à 19h</div>
-            <div>Jeudi : 9h à 19h</div>
-            <div>Vendredi : 9h à 19h</div>
-            <div>Samedi: 9h à 17h</div>
-            <div>Dimanche: Fermé</div>
+            <div class="grey-letter font-roboto-flex">Lundi : Fermé</div>
+            <div class="grey-letter font-roboto-flex">Mardi : 9h à 19h</div>
+            <div class="grey-letter font-roboto-flex">Mercredi : 9h à 19h</div>
+            <div class="grey-letter font-roboto-flex">Jeudi : 9h à 19h</div>
+            <div class="grey-letter font-roboto-flex">Vendredi : 9h à 19h</div>
+            <div class="grey-letter font-roboto-flex">Samedi: 9h à 17h</div>
+            <div class="grey-letter font-roboto-flex">Dimanche: Fermé</div>
           </div>
         </div>
         <hr />
-        <div id="copyright">
+        <div id="copyright" class="font-roboto-flex">
           Copyright © 2024 Marie Beauté Salon de Coiffure – Institut de beauté |
           Shinobi Non-binaire
         </div>
