@@ -37,7 +37,7 @@ header {
   font-size: 15px;
 }
 
-#icons > a {
+#icons>a {
   padding: 10px;
   font-size: 20px;
 }
@@ -68,27 +68,35 @@ header {
 #logo-container {
   color: var(--inner-background);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  padding-right: 20px;
 }
 
 img {
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 100px;
   border: #808080 1.6px solid;
 }
 
 button {
-  background-color: var(--buttons);
-  width: 30%;
-  border-style: double;
-  border-color: #1c1c1c;
+  background-color: #c5f4fa;
+  width: 28%;
+  border: none;
   margin-top: 10px;
-  color: var(--font-color2);
-  height: 44.4px;
-  font-size: 18px;
-  border-radius: 5px;
-  outline-offset: 200px;
+  color: #63b8b9;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 17px;
+  cursor: pointer;
+  transition: background-color 0.5s ease, color 0.5s ease;
+
+}
+
+button:hover {
+  background-color: rgb(212, 245, 250, 0.6);
+
 }
 
 #map {
@@ -108,19 +116,19 @@ button {
   border: 1px white solid;
 }
 
-#address-content > div,
-#hour-content > div {
+#address-content>div,
+#hour-content>div {
   font-size: 12px;
   font-weight: 100;
 }
 
-#address-content > h2,
-#hour-content > h2 {
+#address-content>h2,
+#hour-content>h2 {
   font-size: 18px;
   font-weight: 400;
 }
 
-#social-icons > i {
+#social-icons>i {
   font-size: 25px;
   color: white;
 }
@@ -167,21 +175,40 @@ hr {
 }
 
 #logo {
-  position: relative; /* Nécessaire pour le positionnement du pseudo-élément */
-  display: inline-block; /* Pour que le conteneur ait la taille de l'image */
+  position: relative;
+  /* Nécessaire pour le positionnement du pseudo-élément */
+  display: inline-block;
+  /* Pour que le conteneur ait la taille de l'image */
+  padding-left: 20px;
+
 }
 
 #logo img {
-  display: block; /* Évite les espaces blancs autour de l'image */
+  display: block;
+  /* Évite les espaces blancs autour de l'image */
 }
 
 #logo:hover::after {
-  content: ""; /* Crée le pseudo-élément */
+  content: "";
+  /* Crée le pseudo-élément */
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; /* Calque couvrant toute la largeur */
-  height: 100%; /* Calque couvrant toute la hauteur */
-  background-color: rgba(255, 255, 255, 0.3); /* Rouge transparent */
-  pointer-events: none; /* Permet de cliquer sur le lien en dessous */
+  width: 100%;
+  /* Calque couvrant toute la largeur */
+  height: 100%;
+  /* Calque couvrant toute la hauteur */
+  background-color: rgba(255, 255, 255, 0.3);
+  /* Rouge transparent */
+  pointer-events: none;
+  /* Permet de cliquer sur le lien en dessous */
+}
+
+
+#title {
+  color: black;
+  width: 100vw;
+  padding-left: 20px;
+  text-align: justify;
+  font-size: 20px;
 }
