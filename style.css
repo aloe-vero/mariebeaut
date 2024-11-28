@@ -37,7 +37,7 @@ header {
   font-size: 15px;
 }
 
-#icons>a {
+#icons > a {
   padding: 10px;
   font-size: 20px;
 }
@@ -91,12 +91,10 @@ button {
   border-radius: 17px;
   cursor: pointer;
   transition: background-color 0.5s ease, color 0.5s ease;
-
 }
 
 button:hover {
   background-color: rgb(212, 245, 250, 0.6);
-
 }
 
 #map {
@@ -113,27 +111,27 @@ button:hover {
   justify-content: center;
   align-items: center;
   width: 20%;
-  gap: 15px
+  gap: 15px;
 }
 
-#address-content>div,
-#hour-content>div {
+#address-content > div,
+#hour-content > div {
   font-size: 0.9rem;
   font-weight: 100;
 }
 
-#address-content>h2,
-#hour-content>h2 {
+#address-content > h2,
+#hour-content > h2 {
   font-size: 23px;
   font-weight: 400;
 }
 
-#social-icons>i {
+#social-icons > a > i {
   font-size: 25px;
   color: white;
 }
 
-#social-icons>i:first-child {
+#social-icons > a:first-child {
   margin-right: 40px;
 }
 
@@ -187,36 +185,27 @@ hr {
 
 #logo {
   position: relative;
-  /* Nécessaire pour le positionnement du pseudo-élément */
   display: inline-block;
-  /* Pour que le conteneur ait la taille de l'image */
   padding-left: 20px;
-
 }
 
 #logo img {
   display: block;
-  /* Évite les espaces blancs autour de l'image */
 }
 
 #logo:hover::after {
   content: "";
-  /* Crée le pseudo-élément */
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  /* Calque couvrant toute la largeur */
   height: 100%;
-  /* Calque couvrant toute la hauteur */
   background-color: rgba(255, 255, 255, 0.3);
-  /* Rouge transparent */
   pointer-events: none;
-  /* Permet de cliquer sur le lien en dessous */
 }
 
 .grey-letter {
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 .font-roboto-flex {
@@ -224,7 +213,6 @@ hr {
   font-weight: 100 !important;
   font-size: 0.8rem;
 }
-
 
 #title {
   color: black;
@@ -240,7 +228,6 @@ hr {
     height: 100%;
     align-items: center;
     padding: 10px 10px 10px 10px;
-
   }
 
   #main-body {
@@ -249,7 +236,7 @@ hr {
 
   #address-content,
   #hour-content {
-    width: 99%
+    width: 99%;
   }
 
   #location {
@@ -258,7 +245,7 @@ hr {
 
   #locationPhone {
     display: block;
-    color: #FF4500;
+    color: #ff4500;
     font-size: 20px;
   }
 
@@ -271,15 +258,10 @@ hr {
     height: 50px;
     width: 79%;
   }
-
 }
 
-
 @media only screen and (max-width: 1200px) {
-
   #main-body {
     width: 99%;
   }
-
-
 }
