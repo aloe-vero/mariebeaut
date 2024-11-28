@@ -1,2 +1,3 @@
 **Lien pour accéder le site de Marie-Beauté :**  
-http://yoshimarie.site/marieBeaute/
+http://yoshimarie.site/marieBeaute/  
+:ninja:
